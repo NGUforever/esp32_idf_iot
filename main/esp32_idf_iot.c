@@ -1,5 +1,14 @@
 #include <stdio.h>
+#include <inttypes.h>
+#include "sdkconfig.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "esp_chip_info.h"
+#include "esp_system.h"
+#include "esp_flash.h"
 #include "driver/gpio.h"
+#include "esp_wifi.h"
+#include "esp_bt.h"
 
 void gpio_hal_config(void)
 {

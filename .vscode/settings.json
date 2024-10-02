@@ -3,6 +3,7 @@
         "*.cjson": "jsonc",
         "*.wxss": "css",
         "*.wxs": "javascript",
-        "gpio.h": "c"
+        "gpio.h": "c",
+        "esp_wifi.h": "c"
     }
 }
